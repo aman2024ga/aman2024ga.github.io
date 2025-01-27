@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Santa Amélia - PR</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #4CAF50; /* Green */
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: auto; /* Adjusted height */
+  background: #f2f2f2; /* Light gray */
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #e6f7ff; /* Light blue */
+  height: auto; /* Adjusted height */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333; /* Dark gray */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Santa Amélia - PR</h2>
+<p>Amanda Martins da Silva</p>
+
+<header>
+  <h2>Santa Amélia - Histórias e Curiosidades</h2>
+</header>
+
+<section>
+  <nav>
+    <p>Santa Amélia é um município cheio de vida e histórias inspiradoras. Localizada no norte do Paraná, é um destino que encanta por sua simplicidade e sua forte conexão com a natureza e a agricultura. A cidade é o reflexo de uma comunidade unida e trabalhadora, que valoriza suas raízes e tradições culturais. 
+    </p>
+    <p>A cidade conta com eventos locais que celebram sua história e cultura, e as paisagens naturais proporcionam momentos de tranquilidade e contemplação. Seja para explorar o campo, conhecer a hospitalidade de seus moradores ou simplesmente relaxar, Santa Amélia é um lugar especial para se visitar e viver.</p>
+  </nav>
+  
+  <article>
+    <h1>Sobre Santa Amélia</h1>
+    <p>Santa Amélia é conhecida por sua economia baseada na agricultura, com destaque para o cultivo de café, milho e soja, além de pequenas propriedades que produzem alimentos frescos e saudáveis. A cidade tem um papel importante no cenário regional, contribuindo para o desenvolvimento econômico do Paraná.</p>
+    <p>Os moradores de Santa Amélia são acolhedores e orgulhosos de sua história. As tradições são preservadas e celebradas em eventos locais, que reforçam o sentimento de pertencimento e identidade cultural. É um lugar onde modernidade e tradição coexistem em harmonia.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Amanda Martins da Silva</p>
+</footer>
+
+</body>
+</html>
